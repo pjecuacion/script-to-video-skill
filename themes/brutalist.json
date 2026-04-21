@@ -1,0 +1,52 @@
+{
+  "id": "brutalist",
+  "name": "Brutalist",
+  "description": "Pure white background, ink black text, pure red accent. Arial Black / Impact style. Zero decoration, maximum contrast. Bold statements, hot takes, satire.",
+  "mood": ["bold", "raw", "punchy", "satire", "confrontational", "high-contrast", "viral"],
+
+  "colors": {
+    "bg":       "#ffffff",
+    "surface":  "#f0f0f0",
+    "text":     "#000000",
+    "muted":    "#444444",
+    "accent":   "#ff0000",
+    "accentAlt":"#000000"
+  },
+
+  "typography": {
+    "fontFamily":  "'Bebas Neue', sans-serif",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap",
+    "weights": {
+      "headline": 400,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "140px",
+      "sub":      "56px",
+      "caption":  "36px"
+    },
+    "note": "Bebas Neue is single-weight (400) — all-caps by default. Use enormous font sizes (140–180px) and tight line-height (0.95). Red is used ONLY for one or two words — never full sentences. Borders and underlines in black, thick (6–10px). No gradients, no shadows, no rounded corners. Hard cuts only."
+  },
+
+  "captions": {
+    "fontFamily":  "'Bebas Neue', sans-serif",
+    "fontSize":    "36px",
+    "fontWeight":  "400",
+    "color":       "#000000",
+    "textShadow":  "none",
+    "padding":     "0 140px",
+    "lineHeight":  "1.2",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'Bebas Neue',sans-serif; background:#ffffff; color:#000000;",
+    "hed":       "font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:140px; color:#000000; line-height:0.95; letter-spacing:2px;",
+    "sub":       "font-family:'Bebas Neue',sans-serif; font-weight:400; font-size:56px; color:#444444;",
+    "capText":   "font-family:'Bebas Neue',sans-serif; font-size:36px; font-weight:400; color:#000000; padding:0 140px; line-height:1.2;"
+  },
+
+  "transitions": ["Fade"],
+  "defaultFor": null
+}

@@ -1,0 +1,52 @@
+{
+  "id": "velvet-standard",
+  "name": "Velvet Standard",
+  "description": "Black canvas, white text, gold accent. Cormorant Garamond serif with thin weights. Premium, luxury, finance, and high-end brand content.",
+  "mood": ["luxury", "premium", "finance", "elegant", "high-end", "refined", "restrained"],
+
+  "colors": {
+    "bg":       "#0a0a0a",
+    "surface":  "#111111",
+    "text":     "#f8f8f8",
+    "muted":    "#888888",
+    "accent":   "#c9a84c",
+    "accentAlt":"#e8c96a"
+  },
+
+  "typography": {
+    "fontFamily":  "'Cormorant Garamond', serif",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&display=swap",
+    "weights": {
+      "headline": 300,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "130px",
+      "sub":      "54px",
+      "caption":  "34px"
+    },
+    "note": "Use weight 300 (light) for headlines — the contrast of large thin letterforms is the luxury signal. Gold accent used sparingly: one element per scene max. Motion is slow and deliberate — long ease durations (0.9–1.4s). No bold animations; prefer fades and slow rises."
+  },
+
+  "captions": {
+    "fontFamily":  "'Cormorant Garamond', serif",
+    "fontSize":    "34px",
+    "fontWeight":  "400",
+    "color":       "#c9a84c",
+    "textShadow":  "0 2px 12px rgba(0,0,0,0.9)",
+    "padding":     "0 140px",
+    "lineHeight":  "1.5",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'Cormorant Garamond',serif; background:#0a0a0a; color:#f8f8f8;",
+    "hed":       "font-family:'Cormorant Garamond',serif; font-weight:300; font-size:130px; color:#f8f8f8; line-height:1.05;",
+    "sub":       "font-family:'Cormorant Garamond',serif; font-weight:400; font-size:54px; color:#888888;",
+    "capText":   "font-family:'Cormorant Garamond',serif; font-size:34px; font-weight:400; color:#c9a84c; text-shadow:0 2px 12px rgba(0,0,0,0.9); padding:0 140px; line-height:1.5;"
+  },
+
+  "transitions": ["Fade", "Cross-Warp Morph"],
+  "defaultFor": null
+}

@@ -1,0 +1,52 @@
+{
+  "id": "neon-tokyo",
+  "name": "Neon Tokyo",
+  "description": "Dark navy canvas, electric cyan and hot pink neon accents, monospace font. Futuristic, AI, and tech content.",
+  "mood": ["futuristic", "tech", "AI", "energetic", "cyberpunk", "dark", "bold"],
+
+  "colors": {
+    "bg":       "#06061a",
+    "surface":  "#0d0d2b",
+    "text":     "#e8e8ff",
+    "muted":    "#7b7ba8",
+    "accent":   "#00f5ff",
+    "accentAlt":"#ff2d78"
+  },
+
+  "typography": {
+    "fontFamily":  "'JetBrains Mono', monospace",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap",
+    "weights": {
+      "headline": 800,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "110px",
+      "sub":      "48px",
+      "caption":  "32px"
+    },
+    "note": "Use cyan for primary accent, pink for secondary. Glow effects: text-shadow 0 0 20px rgba(0,245,255,0.6). Avoid mixing both accents on same element."
+  },
+
+  "captions": {
+    "fontFamily":  "'JetBrains Mono', monospace",
+    "fontSize":    "32px",
+    "fontWeight":  "400",
+    "color":       "#00f5ff",
+    "textShadow":  "0 0 16px rgba(0,245,255,0.7)",
+    "padding":     "0 140px",
+    "lineHeight":  "1.4",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'JetBrains Mono',monospace; background:#06061a; color:#e8e8ff;",
+    "hed":       "font-family:'JetBrains Mono',monospace; font-weight:800; font-size:110px; color:#e8e8ff; line-height:1.05; text-shadow:0 0 40px rgba(0,245,255,0.25);",
+    "sub":       "font-family:'JetBrains Mono',monospace; font-weight:400; font-size:48px; color:#7b7ba8;",
+    "capText":   "font-family:'JetBrains Mono',monospace; font-size:32px; font-weight:400; color:#00f5ff; text-shadow:0 0 16px rgba(0,245,255,0.7); padding:0 140px; line-height:1.4;"
+  },
+
+  "transitions": ["Domain Warp", "Cross-Warp Morph"],
+  "defaultFor": null
+}

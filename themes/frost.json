@@ -1,0 +1,52 @@
+{
+  "id": "frost",
+  "name": "Frost",
+  "description": "White background, light grey surfaces, deep blue accent. Inter font, light weights. Glassmorphism panels. Clean SaaS and product demo aesthetic.",
+  "mood": ["clean", "modern", "SaaS", "product", "professional", "minimal", "corporate"],
+
+  "colors": {
+    "bg":       "#ffffff",
+    "surface":  "#f0f4f8",
+    "text":     "#0f172a",
+    "muted":    "#64748b",
+    "accent":   "#1e3a5f",
+    "accentAlt":"#3b82f6"
+  },
+
+  "typography": {
+    "fontFamily":  "'Inter', sans-serif",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+    "weights": {
+      "headline": 700,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "112px",
+      "sub":      "50px",
+      "caption":  "34px"
+    },
+    "note": "Glassmorphism panels: background:rgba(255,255,255,0.7); backdrop-filter:blur(16px); border:1px solid rgba(255,255,255,0.9); border-radius:20px. Use accentAlt (#3b82f6) for interactive/highlight elements. Motion is crisp and fast — short durations (0.3–0.5s), power2 easing."
+  },
+
+  "captions": {
+    "fontFamily":  "'Inter', sans-serif",
+    "fontSize":    "34px",
+    "fontWeight":  "400",
+    "color":       "#0f172a",
+    "textShadow":  "none",
+    "padding":     "0 140px",
+    "lineHeight":  "1.5",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'Inter',sans-serif; background:#ffffff; color:#0f172a;",
+    "hed":       "font-family:'Inter',sans-serif; font-weight:700; font-size:112px; color:#0f172a; line-height:1.05;",
+    "sub":       "font-family:'Inter',sans-serif; font-weight:400; font-size:50px; color:#64748b;",
+    "capText":   "font-family:'Inter',sans-serif; font-size:34px; font-weight:400; color:#0f172a; padding:0 140px; line-height:1.5;"
+  },
+
+  "transitions": ["Fade", "Cross-Warp Morph"],
+  "defaultFor": null
+}

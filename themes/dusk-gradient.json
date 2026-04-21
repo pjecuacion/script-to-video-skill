@@ -1,0 +1,52 @@
+{
+  "id": "dusk-gradient",
+  "name": "Dusk Gradient",
+  "description": "Deep purple to warm orange gradient background, Syne bold font. Sunset energy for lifestyle, creator, and personal brand content.",
+  "mood": ["energetic", "creator", "lifestyle", "warm", "vibrant", "personal-brand", "sunset"],
+
+  "colors": {
+    "bg":       "#1a0533",
+    "surface":  "#2d0a4e",
+    "text":     "#fff4e6",
+    "muted":    "#c49a7a",
+    "accent":   "#ff6b35",
+    "accentAlt":"#ffd166"
+  },
+
+  "typography": {
+    "fontFamily":  "'Syne', sans-serif",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap",
+    "weights": {
+      "headline": 800,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "118px",
+      "sub":      "52px",
+      "caption":  "34px"
+    },
+    "note": "Scene backgrounds: linear-gradient(135deg, #1a0533 0%, #6b1a5c 50%, #c0392b 80%, #ff6b35 100%). Each scene can shift the gradient angle slightly for variety. Accent elements can use either orange (#ff6b35) or yellow (#ffd166) — mix them across scenes for warmth."
+  },
+
+  "captions": {
+    "fontFamily":  "'Syne', sans-serif",
+    "fontSize":    "34px",
+    "fontWeight":  "400",
+    "color":       "#fff4e6",
+    "textShadow":  "0 2px 14px rgba(0,0,0,0.8)",
+    "padding":     "0 140px",
+    "lineHeight":  "1.4",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'Syne',sans-serif; background:#1a0533; color:#fff4e6;",
+    "hed":       "font-family:'Syne',sans-serif; font-weight:800; font-size:118px; color:#fff4e6; line-height:1.05;",
+    "sub":       "font-family:'Syne',sans-serif; font-weight:400; font-size:52px; color:#c49a7a;",
+    "capText":   "font-family:'Syne',sans-serif; font-size:34px; font-weight:400; color:#fff4e6; text-shadow:0 2px 14px rgba(0,0,0,0.8); padding:0 140px; line-height:1.4;"
+  },
+
+  "transitions": ["Cross-Warp Morph", "Domain Warp"],
+  "defaultFor": null
+}

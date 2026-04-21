@@ -1,0 +1,52 @@
+{
+  "id": "terminal-green",
+  "name": "Terminal Green",
+  "description": "Black canvas, phosphor green text, monospace font. Hacker/developer aesthetic with CLI typing energy.",
+  "mood": ["hacker", "dev", "coding", "technical", "raw", "dark", "minimal"],
+
+  "colors": {
+    "bg":       "#0d0d0d",
+    "surface":  "#111111",
+    "text":     "#00ff41",
+    "muted":    "#2a7a3a",
+    "accent":   "#00ff41",
+    "accentAlt":"#39ff14"
+  },
+
+  "typography": {
+    "fontFamily":  "'JetBrains Mono', monospace",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap",
+    "weights": {
+      "headline": 700,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "100px",
+      "sub":      "48px",
+      "caption":  "32px"
+    },
+    "note": "All text is green on black. Use brightness/opacity for hierarchy — full #00ff41 for headlines, #2a7a3a for muted. Add blinking cursor (|) to animated elements for authenticity. Glow: text-shadow 0 0 10px rgba(0,255,65,0.8)."
+  },
+
+  "captions": {
+    "fontFamily":  "'JetBrains Mono', monospace",
+    "fontSize":    "32px",
+    "fontWeight":  "400",
+    "color":       "#00ff41",
+    "textShadow":  "0 0 10px rgba(0,255,65,0.8)",
+    "padding":     "0 140px",
+    "lineHeight":  "1.4",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'JetBrains Mono',monospace; background:#0d0d0d; color:#00ff41;",
+    "hed":       "font-family:'JetBrains Mono',monospace; font-weight:700; font-size:100px; color:#00ff41; line-height:1.05; text-shadow:0 0 20px rgba(0,255,65,0.5);",
+    "sub":       "font-family:'JetBrains Mono',monospace; font-weight:400; font-size:48px; color:#2a7a3a;",
+    "capText":   "font-family:'JetBrains Mono',monospace; font-size:32px; font-weight:400; color:#00ff41; text-shadow:0 0 10px rgba(0,255,65,0.8); padding:0 140px; line-height:1.4;"
+  },
+
+  "transitions": ["Fade", "Domain Warp"],
+  "defaultFor": null
+}

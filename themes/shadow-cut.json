@@ -1,0 +1,51 @@
+{
+  "id": "shadow-cut",
+  "name": "Shadow Cut",
+  "description": "Dark cinematic. High contrast. Deep red accent. Works universally — the default theme.",
+  "mood": ["dark", "cinematic", "dramatic", "tech", "AI", "premium"],
+
+  "colors": {
+    "bg":       "#0a0a0a",
+    "surface":  "#111111",
+    "text":     "#e2e2e2",
+    "muted":    "#8899aa",
+    "accent":   "#c0392b",
+    "accentAlt":"#e74c3c"
+  },
+
+  "typography": {
+    "fontFamily":  "'Outfit', sans-serif",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap",
+    "weights": {
+      "headline": 900,
+      "body":     400,
+      "caption":  500
+    },
+    "sizes": {
+      "headline": "120px",
+      "sub":      "52px",
+      "caption":  "34px"
+    }
+  },
+
+  "captions": {
+    "fontFamily":  "'Outfit', sans-serif",
+    "fontSize":    "34px",
+    "fontWeight":  "500",
+    "color":       "#fff",
+    "textShadow":  "0 2px 14px rgba(0,0,0,.95)",
+    "padding":     "0 140px",
+    "lineHeight":  "1.4",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":    "font-family:'Outfit',sans-serif; background:#0a0a0a;",
+    "hed":         "font-family:'Outfit',sans-serif; font-weight:900; font-size:120px; color:#e2e2e2; line-height:1.05;",
+    "sub":         "font-family:'Outfit',sans-serif; font-weight:400; font-size:52px; color:#8899aa;",
+    "capText":     "font-family:'Outfit',sans-serif; font-size:34px; font-weight:500; color:#fff; text-shadow:0 2px 14px rgba(0,0,0,.95); padding:0 140px; line-height:1.4;"
+  },
+
+  "transitions": ["Domain Warp", "Cross-Warp Morph"],
+  "defaultFor":  "script-to-video"
+}

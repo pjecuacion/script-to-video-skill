@@ -1,0 +1,52 @@
+{
+  "id": "broadsheet",
+  "name": "Broadsheet",
+  "description": "Cream paper background, ink-black text, Playfair Display serif. Editorial newspaper/journalism feel. No colour accent — ink only.",
+  "mood": ["editorial", "journalism", "serious", "classic", "authoritative", "newspaper", "storytelling"],
+
+  "colors": {
+    "bg":       "#f5f0e8",
+    "surface":  "#ede8de",
+    "text":     "#1c1c1c",
+    "muted":    "#6b6055",
+    "accent":   "#1c1c1c",
+    "accentAlt":"#8b0000"
+  },
+
+  "typography": {
+    "fontFamily":  "'Playfair Display', serif",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap",
+    "weights": {
+      "headline": 900,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "120px",
+      "sub":      "52px",
+      "caption":  "34px"
+    },
+    "note": "No coloured accents — use ink black for everything. Use thin horizontal rules (1px #1c1c1c) as decorative dividers. All-caps labels with wide letter-spacing (8px) feel like column headers. Use accentAlt (#8b0000) sparingly for breaking-news urgency only."
+  },
+
+  "captions": {
+    "fontFamily":  "'Playfair Display', serif",
+    "fontSize":    "34px",
+    "fontWeight":  "400",
+    "color":       "#1c1c1c",
+    "textShadow":  "none",
+    "padding":     "0 140px",
+    "lineHeight":  "1.5",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'Playfair Display',serif; background:#f5f0e8; color:#1c1c1c;",
+    "hed":       "font-family:'Playfair Display',serif; font-weight:900; font-size:120px; color:#1c1c1c; line-height:1.05;",
+    "sub":       "font-family:'Playfair Display',serif; font-weight:400; font-size:52px; color:#6b6055;",
+    "capText":   "font-family:'Playfair Display',serif; font-size:34px; font-weight:400; color:#1c1c1c; padding:0 140px; line-height:1.5;"
+  },
+
+  "transitions": ["Fade", "Cross-Warp Morph"],
+  "defaultFor": null
+}

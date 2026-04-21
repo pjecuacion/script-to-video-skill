@@ -1,0 +1,77 @@
+{
+  "id": "blueprint",
+  "name": "Blueprint",
+  "description": "Deep navy background, white and electric blue, IBM Plex Mono font. Technical drawing/engineering aesthetic with grid marks and spec callouts.",
+  "mood": ["technical", "engineering", "process", "architecture", "precise", "professional"],
+
+  "colors": {
+    "bg":       "#0a1628",
+    "surface":  "#0d1f3c",
+    "text":     "#e8f0ff",
+    "muted":    "#4d6a99",
+    "accent":   "#4da6ff",
+    "accentAlt":"#ffffff"
+  },
+
+  "typography": {
+    "fontFamily":  "'IBM Plex Mono', monospace",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap",
+    "weights": {
+      "headline": 700,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "100px",
+      "sub":      "46px",
+      "caption":  "32px"
+    },
+    "note": "Decorate scenes with dashed border lines (border:2px dashed #4d6a99), corner bracket marks, and dimension callouts. Labels in all-caps with letter-spacing:4px feel like spec annotations. Grid bg: repeating-linear-gradient lines at ~60px spacing in rgba(77,106,153,0.15)."
+  },
+
+  "captions": {
+    "fontFamily":  "'IBM Plex Mono', monospace",
+    "fontSize":    "32px",
+    "fontWeight":  "400",
+    "color":       "#4da6ff",
+    "textShadow":  "0 0 12px rgba(77,166,255,0.5)",
+    "padding":     "0 140px",
+    "lineHeight":  "1.4",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":  "font-family:'IBM Plex Mono',monospace; background:#0a1628; color:#e8f0ff;",
+    "hed":       "font-family:'IBM Plex Mono',monospace; font-weight:700; font-size:100px; color:#e8f0ff; line-height:1.05;",
+    "sub":       "font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:46px; color:#4d6a99;",
+    "capText":   "font-family:'IBM Plex Mono',monospace; font-size:32px; font-weight:400; color:#4da6ff; text-shadow:0 0 12px rgba(77,166,255,0.5); padding:0 140px; line-height:1.4;"
+  },
+
+  "signaturePatterns": {
+    "specBox": {
+      "description": "The defining Blueprint visual — a dashed-border box with the surface color background, wrapping the main content. Looks like a spec sheet or technical drawing callout. REQUIRED on title-card; use on any scene where content needs framing.",
+      "html": "<div style=\"border:2px dashed rgba(77,106,153,0.4);background:#0d1f3c;padding:40px 48px;max-width:1400px;\"><!-- content here --></div>",
+      "annotation": "Pair with a '// COMMENT LABEL' line above the box in muted color (#4d6a99, font-size:28px, letter-spacing:4px) for the full spec-sheet look."
+    },
+    "gridBackground": {
+      "description": "Blueprint grid overlay on every scene-bg. Subtle repeating lines at 60px spacing.",
+      "css": "background-image: repeating-linear-gradient(0deg,rgba(77,106,153,0.12) 0px,rgba(77,106,153,0.12) 1px,transparent 1px,transparent 60px), repeating-linear-gradient(90deg,rgba(77,106,153,0.12) 0px,rgba(77,106,153,0.12) 1px,transparent 1px,transparent 60px);"
+    },
+    "cornerBrackets": {
+      "description": "Accent-colored corner L-brackets in scene corners for a technical drawing feel.",
+      "html": "<div style=\"position:absolute;top:36px;left:36px;width:40px;height:40px;border-top:3px solid #4da6ff;border-left:3px solid #4da6ff;\"></div><div style=\"position:absolute;bottom:36px;right:36px;width:40px;height:40px;border-bottom:3px solid #4da6ff;border-right:3px solid #4da6ff;\"></div>"
+    },
+    "leftBar": {
+      "description": "A vertical 4px accent bar on the left edge — used on kinetic-text and quote scenes.",
+      "html": "<div style=\"position:absolute;left:100px;top:160px;bottom:160px;width:4px;background:#4da6ff;box-shadow:0 0 10px rgba(77,166,255,0.5);\"></div>"
+    }
+  },
+
+  "titleCardTemplate": {
+    "note": "Blueprint title-card MUST use the spec-box pattern. Structure: annotation label above box → dashed box with surface bg wrapping headline + sub.",
+    "html": "<div class=\"scene-content\" style=\"align-items:flex-start;justify-content:center;\">\n  <div id=\"sN-pre\" style=\"font-family:'IBM Plex Mono',monospace;font-size:28px;color:#4d6a99;letter-spacing:4px;\">// YOUR LABEL</div>\n  <div id=\"sN-box\" style=\"border:2px dashed rgba(77,106,153,0.4);background:#0d1f3c;padding:40px 48px;max-width:1400px;\">\n    <h1 id=\"sN-title\" class=\"hed\" style=\"font-size:88px;\">Your headline here.</h1>\n    <p id=\"sN-sub\" class=\"sub\" style=\"font-size:46px;color:#e8f0ff;margin-top:20px;\">Supporting line.</p>\n  </div>\n</div>"
+  },
+
+  "transitions": ["Fade", "Domain Warp"],
+  "defaultFor": null
+}

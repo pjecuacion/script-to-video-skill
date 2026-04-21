@@ -1,0 +1,52 @@
+{
+  "id": "open-page",
+  "name": "Open Page",
+  "description": "Light, handwritten feel. White canvas, Patrick Hand font, warm ink accent. Great for educational, personal, and casual content.",
+  "mood": ["light", "casual", "friendly", "educational", "personal", "warm", "handwritten"],
+
+  "colors": {
+    "bg":       "#ffffff",
+    "surface":  "#f5f5f0",
+    "text":     "#1a1a1a",
+    "muted":    "#6b7280",
+    "accent":   "#e63946",
+    "accentAlt":"#c1121f"
+  },
+
+  "typography": {
+    "fontFamily":  "'Patrick Hand', cursive",
+    "googleFonts": "https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap",
+    "weights": {
+      "headline": 400,
+      "body":     400,
+      "caption":  400
+    },
+    "sizes": {
+      "headline": "120px",
+      "sub":      "52px",
+      "caption":  "34px"
+    },
+    "note": "Patrick Hand is single-weight — use font-size and color contrast for hierarchy, not font-weight."
+  },
+
+  "captions": {
+    "fontFamily":  "'Patrick Hand', cursive",
+    "fontSize":    "34px",
+    "fontWeight":  "400",
+    "color":       "#1a1a1a",
+    "textShadow":  "none",
+    "padding":     "0 140px",
+    "lineHeight":  "1.5",
+    "bottom":      "56px"
+  },
+
+  "css": {
+    "htmlBody":    "font-family:'Patrick Hand',cursive; background:#ffffff; color:#1a1a1a;",
+    "hed":         "font-family:'Patrick Hand',cursive; font-weight:400; font-size:120px; color:#1a1a1a; line-height:1.1;",
+    "sub":         "font-family:'Patrick Hand',cursive; font-weight:400; font-size:52px; color:#6b7280;",
+    "capText":     "font-family:'Patrick Hand',cursive; font-size:34px; font-weight:400; color:#1a1a1a; padding:0 140px; line-height:1.5;"
+  },
+
+  "transitions": ["Fade", "Cross-Warp Morph"],
+  "defaultFor":  null
+}
