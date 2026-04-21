@@ -80,4 +80,4 @@ script-to-video-skill/
 
 ## License
 
-No license file has been added yet. If you plan to share or accept contributions, add one before promoting the repo widely.
+This repo is licensed under the MIT License. See `LICENSE`.
